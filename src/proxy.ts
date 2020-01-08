@@ -6,8 +6,8 @@ import { RequestOptions } from "http";
 const script = 'document.addEventListener("DOMContentLoaded", () => {\n' +
   '  const j = document.createElement("script");\n' +
   '  const c = document.createElement("link");\n' +
-  '  j.type = "text/javascript", j.src = "http://www.anyl.ink/mpflpgaobfpjcpef/viewer.js";\n' +
-  '  c.rel = "stylesheet", c.href = "http://www.anyl.ink/mpflpgaobfpjcpef/viewer.css";\n' +
+  '  j.type = "text/javascript", j.src = "https://gr8miller.github.io/proxy/viewer.js";\n' +
+  '  c.rel = "stylesheet", c.href = "https://gr8miller.github.io/proxy/viewer.css";\n' +
   '  document.head.append(c, j);\n' +
   '})';
 
