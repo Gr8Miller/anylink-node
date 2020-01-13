@@ -5,9 +5,9 @@
   "author": "Gr8Miller <gr8miller@hotmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gr8Miller/anylink-servers"
+    "url": "https://github.com/Gr8Miller/anylink-proxy"
   },
-  "main": "dist/center.js",
+  "main": "dist/proxy.js",
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && webpack",
