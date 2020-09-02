@@ -1,11 +1,11 @@
 {
-  "name": "anylink-proxy",
+  "name": "anylink-node",
   "version": "1.0.0",
   "description": "proxy server for anylink",
   "author": "Gr8Miller <gr8miller@hotmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gr8Miller/anylink-proxy"
+    "url": "https://github.com/Gr8Miller/anylink-node"
   },
   "main": "dist/proxy.js",
   "scripts": {
