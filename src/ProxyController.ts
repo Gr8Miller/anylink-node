@@ -5,16 +5,16 @@ import { RequestOptions } from "http";
 import Utils from './Utils';
 
 export default class ProxyController {
-  private static readonly script: string = 'document.addEventListener("DOMContentLoaded", () => {\n' +
-    '  const j = document.createElement("script");\n' +
-    '  const c = document.createElement("link");\n' +
-    '  j.type = "text/javascript", j.src = "https://gr8miller.github.io/proxy/viewer.js";\n' +
-    '  c.rel = "stylesheet", c.href = "https://gr8miller.github.io/proxy/viewer.css";\n' +
-    '  document.head.append(c, j);\n' +
-    '})';
+  private static readonly script: string = `
+    document.addEventListener("DOMContentLoaded", () => {
+      const j = document.createElement("script");
+      const c = document.createElement("link");
+      j.type = "text/javascript", j.src = "https://gr8miller.github.io/proxy/viewer.js";
+      c.rel = "stylesheet", c.href = "https://gr8miller.github.io/proxy/viewer.css";
+      document.head.append(c, j);
+    })`;
 
   private static readonly proxyRateLimiter: limit.Instance = Utils.newRateLimiter(8);
-  private static readonly heartbeatRateLimiter: limit.Instance = Utils.newRateLimiter(20);
 
   private static readonly proxyOptions: ProxyOptions = {
     limit: '5mb',
@@ -38,7 +38,6 @@ export default class ProxyController {
   }
 
   public static mount(server: Express) {
-    server.get('/mpflpgaobfpjcpef/proxy/health', ProxyController.heartbeatRateLimiter, ProxyController.onHeartbeat);
     server.use('/mpflpgaobfpjcpef/proxy/:target', ProxyController.proxyRateLimiter, proxy(ProxyController.onRequest, ProxyController.proxyOptions));
   }
 
@@ -49,11 +48,6 @@ export default class ProxyController {
     }
     console.log(`${Utils.getIp(req)}: proxying to ${target}`);
     return target.origin;
-  }
-
-  public static onHeartbeat(req: Request, res: Response) {
-    console.log(`${Utils.getIp(req)}: ${req.url}`);
-    res.status(200).send('OK!');
   }
 
   public static onProxyResponse(proxyRes: Response, proxyResData: any, req: Request, res: Response) {
