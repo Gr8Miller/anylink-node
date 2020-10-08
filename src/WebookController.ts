@@ -9,7 +9,7 @@ export default class WebookController {
 
   public static mount(server: Express) {
     BookService.init();
-    
+
     server.post('/mpflpgaobfpjcpef/book/meta',
       WebookController.getLimiter,
       express.json(),
@@ -28,8 +28,12 @@ export default class WebookController {
 
   private static async getFullBook(req: Request, res: Response) {
     const { bookId } = req.params;
-    const fullBook = await BookService.getFullBook(bookId);
-    res.status(200).json(fullBook);
+    if (await BookService.exist(bookId)) {
+      const fullBook = await BookService.getFullBook(bookId);
+      res.status(200).json(fullBook);
+    } else {
+      res.status(404).send();
+    }
   }
 
   private static async getBookMetas(req: Request, res: Response) {
@@ -52,7 +56,6 @@ export default class WebookController {
     const { bookId } = req.params;
     const fullBook = req.body;
     console.log(`save book[${bookId}]`);
-    fullBook.book.updateAt = Date.now();
     await BookService.saveFullBook(bookId, fullBook);
     res.status(200).json({ bookId });
   }

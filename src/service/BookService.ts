@@ -16,14 +16,25 @@ export default class BookService {
     return bookIds.map((bookId) => BookService.metas[bookId]!);
   }
 
+  public static async getBookMeta(bookId: string): Promise<IBook> {
+    return BookService.metas[bookId];
+  }
+
+  public static async exist(bookId: string): Promise<boolean> {
+    return !!BookService.metas[bookId];
+  }
+
   public static async getFullBook(bookId: string): Promise<IBook.Full> {
     if (bookId == 'metas') {
       throw new Error('book not found');
     }
     const bookFilePath = BookService.getBookFilePath(bookId);
     console.log(`read book[${bookId}] from ${bookFilePath}`);
-    return new Promise((resolve, reject) => {
-      resolve(JSON.parse(fs.readFileSync(bookFilePath).toString()));
+    return new Promise(async (resolve, reject) => {
+      const book = await BookService.getBookMeta(bookId);
+      const full = JSON.parse(fs.readFileSync(bookFilePath).toString());
+      full.book = book;
+      resolve(full);
     })
   }
 
