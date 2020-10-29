@@ -1,9 +1,8 @@
 import fs from "fs";
 import { resolve } from "path";
-import { IBook } from 'anylink-model';
 
 export default class BookService {
-  private static metas: { [bookId: string]: IBook } = {};
+  private static metas: { [bookId: string]: any } = {};
   private static metaFilePath = resolve(`./books/metas.json`);
 
   public static init() {
@@ -12,11 +11,11 @@ export default class BookService {
     BookService.metas = JSON.parse(content);
   }
 
-  public static async getBookMetas(bookIds: Array<string>): Promise<Array<IBook>> {
+  public static async getBookMetas(bookIds: Array<string>): Promise<Array<{}>> {
     return bookIds.map((bookId) => BookService.metas[bookId]!);
   }
 
-  public static async getBookMeta(bookId: string): Promise<IBook> {
+  public static async getBookMeta(bookId: string): Promise<{}> {
     return BookService.metas[bookId];
   }
 
@@ -24,7 +23,7 @@ export default class BookService {
     return !!BookService.metas[bookId];
   }
 
-  public static async getFullBook(bookId: string): Promise<IBook.Full> {
+  public static async getFullBook(bookId: string): Promise<{}> {
     if (bookId == 'metas') {
       throw new Error('book not found');
     }
@@ -38,7 +37,7 @@ export default class BookService {
     })
   }
 
-  public static async saveFullBook(bookId: string, fullBook: IBook.Full) {
+  public static async saveFullBook(bookId: string, fullBook: any) {
     if (bookId == 'metas') {
       throw new Error('book not found');
     }
