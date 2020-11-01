@@ -6,7 +6,7 @@ export default class HealthController {
   private static readonly heartbeatRateLimiter: limit.Instance = Utils.newRateLimiter(20);
 
   public static mount(server: Express) {
-    server.get('/mpflpgaobfpjcpef/health', HealthController.heartbeatRateLimiter, HealthController.onRequest);
+    server.get('/mpflpgaobfpjcpef/proxy/health', HealthController.heartbeatRateLimiter, HealthController.onRequest);
   }
 
   public static onRequest(req: Request, res: Response) {
