@@ -28,35 +28,44 @@ export default class WebookController {
 
   private static async getFullBook(req: Request, res: Response) {
     const { bookId } = req.params;
+    console.log(new Date().toISOString(), Utils.getIp(req), `getFullBook(${bookId})`);
     if (await BookService.exist(bookId)) {
       const fullBook = await BookService.getFullBook(bookId);
+      console.log(new Date().toISOString(), Utils.getIp(req), `getFullBook(${bookId})=200`);
       res.status(200).json(fullBook);
     } else {
+      console.log(new Date().toISOString(), Utils.getIp(req), `getFullBook(${bookId})=404`);
       res.status(404).send();
     }
   }
 
   private static async getBookMetas(req: Request, res: Response) {
     const { bookIds } = req.body;
+    console.log(new Date().toISOString(), Utils.getIp(req), `getBookMetas(${bookIds})`);
     const metas = await BookService.getBookMetas(bookIds);
+    console.log(new Date().toISOString(), Utils.getIp(req), `getBookMetas(${bookIds})=200`);
     res.status(200).json(metas);
   }
 
   private static async getBookMeta(req: Request, res: Response) {
     const { bookId } = req.params;
+    console.log(new Date().toISOString(), Utils.getIp(req), `getBookMeta(${bookId})`);
     const metas = await BookService.getBookMetas([bookId]);
     if (metas.length > 0) {
+      console.log(new Date().toISOString(), Utils.getIp(req), `getBookMeta(${bookId})=200`);
       res.status(200).json(metas[0]);
     } else {
+      console.log(new Date().toISOString(), Utils.getIp(req), `getBookMeta(${bookId})=404`);
       res.status(404).send();
     }
   }
 
   private static async saveFullBook(req: Request, res: Response) {
     const { bookId } = req.params;
+    console.log(new Date().toISOString(), Utils.getIp(req), `saveFullBook(${bookId})`);
     const fullBook = req.body;
-    console.log(`save book[${bookId}]`);
     await BookService.saveFullBook(bookId, fullBook);
+    console.log(new Date().toISOString(), Utils.getIp(req), `saveFullBook(${bookId})=200`);
     res.status(200).json({ bookId });
   }
 }

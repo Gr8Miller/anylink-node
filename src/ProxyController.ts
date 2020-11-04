@@ -44,21 +44,26 @@ export default class ProxyController {
   }
 
   public static onHealthRequest(req: Request, res: Response) {
-    console.log(`${Utils.getIp(req)}: ${req.url}`);
+    console.log(new Date().toISOString(), Utils.getIp(req), `onHealthRequest`);
     res.status(200).send('OK!');
   }
 
   public static onProxyRequest(req: Request): string {
     const target = new URL(req.params.target);
-    if (target.hostname === 'localhost' || target.hostname === '127.0.0.1') {
-      throw new Error('invalid url');
+    console.log(new Date().toISOString(), Utils.getIp(req), `onProxyRequest(${target})`);
+    if (target.hostname === 'localhost' ||
+      target.hostname === '127.0.0.1' ||
+      target.hostname.includes("anyl.ink") ||
+      target.hostname.includes("81.69.18.239")) {
+      console.error(new Date().toISOString(), Utils.getIp(req), `!!!ATTACKING!!!`);
+      throw new Error('invalid target');
     }
-    console.log(`${Utils.getIp(req)}: proxying to ${target}`);
     return target.origin;
   }
 
   public static onProxyResponse(proxyRes: Response, proxyResData: any, req: Request, res: Response) {
     if (res.get('Content-Type').toLowerCase().includes('html')) {
+      console.log(new Date().toISOString(), Utils.getIp(req), `onProxyResponse(${req.url})`);
       const target = new URL(req.params.target);
       let data = proxyResData.toString('utf8');
       data = data.replace('<head>', `<head><base href="${target.origin}/"><script>${ProxyController.script}</script>`);//inject js
@@ -68,7 +73,7 @@ export default class ProxyController {
   }
 
   public static onProxyError(err: any, res: Response, next: NextFunction) {
-    console.error(err);
+    console.log(new Date().toISOString(), `onProxyError`, err);
     next(err);
   }
 }
