@@ -15,6 +15,8 @@ export default class BookService {
         console.log(new Date().toISOString(), `BookService.init(${path})=meta file length:${content.length}`);
       }
       BookService.metas = JSON.parse(content);
+    } else {
+      console.error(new Date().toISOString(), `BookService.init(${path})=meta file not found`);
     }
   }
 
