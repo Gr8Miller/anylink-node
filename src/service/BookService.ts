@@ -7,8 +7,11 @@ export default class BookService {
 
   public static init() {
     const path = BookService.metaFilePath;
+    console.log(new Date().toISOString(), `BookService.init(${path})`);
     const content = fs.readFileSync(path).toString();
     BookService.metas = JSON.parse(content);
+    const length = Object.entries(BookService.metas.length).length;
+    console.log(new Date().toISOString(), `BookService.init(${path})=${length}`);
   }
 
   public static async getBookMetas(bookIds: Array<string>): Promise<Array<{}>> {
