@@ -15,6 +15,7 @@ export default class ProxyController {
     })`;
 
   private static readonly proxyRateLimiter: limit.Instance = Utils.newRateLimiter(8);
+  private static readonly heartbeatRateLimiter: limit.Instance = Utils.newRateLimiter(20);
 
   private static readonly proxyOptions: ProxyOptions = {
     limit: '5mb',
@@ -38,10 +39,16 @@ export default class ProxyController {
   }
 
   public static mount(server: Express) {
-    server.use('/mpflpgaobfpjcpef/proxy/:target', ProxyController.proxyRateLimiter, proxy(ProxyController.onRequest, ProxyController.proxyOptions));
+    server.get('/mpflpgaobfpjcpef/proxy/health', ProxyController.heartbeatRateLimiter, ProxyController.onHealthRequest);
+    server.use('/mpflpgaobfpjcpef/proxy/:target', ProxyController.proxyRateLimiter, proxy(ProxyController.onProxyRequest, ProxyController.proxyOptions));
   }
 
-  public static onRequest(req: Request): string {
+  public static onHealthRequest(req: Request, res: Response) {
+    console.log(`${Utils.getIp(req)}: ${req.url}`);
+    res.status(200).send('OK!');
+  }
+
+  public static onProxyRequest(req: Request): string {
     const target = new URL(req.params.target);
     if (target.hostname === 'localhost' || target.hostname === '127.0.0.1') {
       throw new Error('invalid url');
