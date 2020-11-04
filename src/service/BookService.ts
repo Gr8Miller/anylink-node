@@ -8,10 +8,14 @@ export default class BookService {
   public static init() {
     const path = BookService.metaFilePath;
     console.log(new Date().toISOString(), `BookService.init(${path})`);
-    const content = fs.readFileSync(path).toString();
-    BookService.metas = JSON.parse(content);
-    const length = Object.entries(BookService.metas.length).length;
-    console.log(new Date().toISOString(), `BookService.init(${path})=${length}`);
+    if (fs.existsSync(path)) {
+      console.log(new Date().toISOString(), `BookService.init(${path})=meta file found`);
+      const content = fs.readFileSync(path).toString();
+      if (content) {
+        console.log(new Date().toISOString(), `BookService.init(${path})=meta file length:${content.length}`);
+      }
+      BookService.metas = JSON.parse(content);
+    }
   }
 
   public static async getBookMetas(bookIds: Array<string>): Promise<Array<{}>> {
