@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "id": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+    "name": "Java并发(1)",
+    "description": "",
+    "createAt": 1602247760257,
+    "updateAt": 1608476438228,
+    "syncAt": 1602248002564,
+    "creatorId": "webook-user",
+    "remote": {
+      "updateAt": 1602248002564,
+      "url": "http://localhost:8001/mpflpgaobfpjcpef/book/10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "key": ""
+    }
+  },
+  "book": {
+    "id": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+    "name": "Java并发(1)",
+    "description": "",
+    "createAt": 1602247760257,
+    "updateAt": 1608476438228,
+    "syncAt": 1602248002564,
+    "creatorId": "webook-user",
+    "remote": {
+      "updateAt": 1602248002564,
+      "url": "http://localhost:8001/mpflpgaobfpjcpef/book/10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "key": ""
+    }
+  },
+  "links": [
+    {
+      "id": "006b4567-a272-43f1-b872-8c0bf9714700",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "自适应自旋锁",
+      "description": "",
+      "children": [],
+      "parentId": "e7ac4f8a-d293-489b-9355-3e849f51f884"
+    },
+    {
+      "id": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "children": [
+        "b6fe2249-b505-4614-aec3-15be331ee52a"
+      ],
+      "title": "Java并发"
+    },
+    {
+      "id": "1bc07a63-e6d2-4777-89e1-18b95b93272a",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "自旋锁的一些问题",
+      "description": "",
+      "children": [],
+      "parentId": "f4132065-6d68-4534-999f-63d8cf43eaf9"
+    },
+    {
+      "id": "1f4f4297-bddb-44ce-8779-a9da0ac813b1",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "偏向锁",
+      "description": "",
+      "children": [
+        "9d921a5c-bc0e-41f1-9287-b6f001853f1c",
+        "389a8923-daed-47d6-a316-a63352d87253",
+        "9b1e4659-9ae2-46b5-9380-1bf1e88c18b3"
+      ],
+      "parentId": "b6fe2249-b505-4614-aec3-15be331ee52a"
+    },
+    {
+      "id": "389a8923-daed-47d6-a316-a63352d87253",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "锁膨胀",
+      "description": "",
+      "children": [],
+      "parentId": "1f4f4297-bddb-44ce-8779-a9da0ac813b1"
+    },
+    {
+      "id": "5a6114a2-2cb5-4ef1-843f-3fbcbe2f6335",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "从偏向锁到重量级锁",
+      "description": "",
+      "children": [],
+      "parentId": "b6fe2249-b505-4614-aec3-15be331ee52a"
+    },
+    {
+      "id": "9b1e4659-9ae2-46b5-9380-1bf1e88c18b3",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "锁撤销",
+      "description": "",
+      "children": [],
+      "parentId": "1f4f4297-bddb-44ce-8779-a9da0ac813b1"
+    },
+    {
+      "id": "9d921a5c-bc0e-41f1-9287-b6f001853f1c",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "什么是偏向锁",
+      "description": "",
+      "children": [],
+      "parentId": "1f4f4297-bddb-44ce-8779-a9da0ac813b1"
+    },
+    {
+      "id": "a31f6a5d-fccc-4cab-9e5e-3d7cbaeae9db",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "重量级锁",
+      "description": "",
+      "children": [],
+      "parentId": "b6fe2249-b505-4614-aec3-15be331ee52a"
+    },
+    {
+      "id": "b6fe2249-b505-4614-aec3-15be331ee52a",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "线程安全",
+      "description": "",
+      "children": [
+        "5a6114a2-2cb5-4ef1-843f-3fbcbe2f6335",
+        "c63b6dd2-2e5b-41a3-99d8-af8aa38d8eb9",
+        "1f4f4297-bddb-44ce-8779-a9da0ac813b1",
+        "e7ac4f8a-d293-489b-9355-3e849f51f884",
+        "a31f6a5d-fccc-4cab-9e5e-3d7cbaeae9db"
+      ],
+      "parentId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a"
+    },
+    {
+      "id": "c63b6dd2-2e5b-41a3-99d8-af8aa38d8eb9",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "锁对象",
+      "description": "",
+      "children": [],
+      "parentId": "b6fe2249-b505-4614-aec3-15be331ee52a"
+    },
+    {
+      "id": "e7ac4f8a-d293-489b-9355-3e849f51f884",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "轻量级锁",
+      "description": "",
+      "children": [
+        "f4132065-6d68-4534-999f-63d8cf43eaf9",
+        "006b4567-a272-43f1-b872-8c0bf9714700"
+      ],
+      "parentId": "b6fe2249-b505-4614-aec3-15be331ee52a"
+    },
+    {
+      "id": "f4132065-6d68-4534-999f-63d8cf43eaf9",
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "type": "MARK",
+      "bookId": "10c4912a-6ecd-4ede-90f4-5ba77e33947a",
+      "title": "自旋锁",
+      "description": "",
+      "children": [
+        "1bc07a63-e6d2-4777-89e1-18b95b93272a"
+      ],
+      "parentId": "e7ac4f8a-d293-489b-9355-3e849f51f884"
+    }
+  ],
+  "pages": [
+    {
+      "id": "7fd54c6f422ea4b5ab840810a76edb26",
+      "url": "https://juejin.cn/post/6844903663450898446",
+      "protocol": "https:",
+      "host": "juejin.cn",
+      "port": 80,
+      "path": "/post/6844903663450898446",
+      "hash": "",
+      "query": ""
+    }
+  ],
+  "marks": [
+    {
+      "id": "006b4567-a272-43f1-b872-8c0bf9714700",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "时候引入的",
+          "position": 4904
+        },
+        "end": {
+          "nth": 3,
+          "text": "适应自旋锁",
+          "position": 4910
+        }
+      },
+      "time": 1602247918074,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "1bc07a63-e6d2-4777-89e1-18b95b93272a",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "么个东西。",
+          "position": 4587
+        },
+        "end": {
+          "nth": 1,
+          "text": "的一些问题",
+          "position": 4595
+        }
+      },
+      "time": 1608476434761,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "1f4f4297-bddb-44ce-8779-a9da0ac813b1",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "没有生效。",
+          "position": 3012
+        },
+        "end": {
+          "nth": 1,
+          "text": "效。偏向锁",
+          "position": 3015
+        }
+      },
+      "time": 1602247893941,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "389a8923-daed-47d6-a316-a63352d87253",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "块的场景。",
+          "position": 3857
+        },
+        "end": {
+          "nth": 1,
+          "text": "景。锁膨胀",
+          "position": 3860
+        }
+      },
+      "time": 1602247899643,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "5a6114a2-2cb5-4ef1-843f-3fbcbe2f6335",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "ized(",
+          "position": 1744
+        },
+        "end": {
+          "nth": 1,
+          "text": "到重量级锁",
+          "position": 1753
+        }
+      },
+      "time": 1602247876329,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "9b1e4659-9ae2-46b5-9380-1bf1e88c18b3",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "说的锁膨胀",
+          "position": 3919
+        },
+        "end": {
+          "nth": 1,
+          "text": "膨胀锁撤销",
+          "position": 3922
+        }
+      },
+      "time": 1602247903861,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "9d921a5c-bc0e-41f1-9287-b6f001853f1c",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "锁。那么，",
+          "position": 3248
+        },
+        "end": {
+          "nth": 1,
+          "text": "么是偏向锁",
+          "position": 3254
+        }
+      },
+      "time": 1602247978290,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "a31f6a5d-fccc-4cab-9e5e-3d7cbaeae9db",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "串行执行。",
+          "position": 5258
+        },
+        "end": {
+          "nth": 1,
+          "text": "。重量级锁",
+          "position": 5262
+        }
+      },
+      "time": 1602247922390,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "b6fe2249-b505-4614-aec3-15be331ee52a",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "阅读721",
+          "position": 1718
+        },
+        "end": {
+          "nth": 1,
+          "text": "1线程安全",
+          "position": 1722
+        }
+      },
+      "time": 1602247862402,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "c63b6dd2-2e5b-41a3-99d8-af8aa38d8eb9",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "量级锁的。",
+          "position": 2389
+        },
+        "end": {
+          "nth": 1,
+          "text": "的。锁对象",
+          "position": 2392
+        }
+      },
+      "time": 1602247889177,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "e7ac4f8a-d293-489b-9355-3e849f51f884",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "功能给关闭",
+          "position": 4118
+        },
+        "end": {
+          "nth": 1,
+          "text": "闭轻量级锁",
+          "position": 4122
+        }
+      },
+      "time": 1602247907430,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "f4132065-6d68-4534-999f-63d8cf43eaf9",
+      "range": {
+        "start": {
+          "nth": 2,
+          "text": "适应自旋锁",
+          "position": 4393
+        },
+        "end": {
+          "nth": 1,
+          "text": "旋锁自旋锁",
+          "position": 4396
+        }
+      },
+      "time": 1602247913127,
+      "pageId": "7fd54c6f422ea4b5ab840810a76edb26",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    }
+  ]
+}

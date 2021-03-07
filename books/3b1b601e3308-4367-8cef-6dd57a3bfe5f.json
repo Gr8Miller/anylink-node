@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "id": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+    "name": "算法",
+    "description": "",
+    "createAt": 1607530841202,
+    "updateAt": 1615044505920,
+    "syncAt": 1607530942747,
+    "creatorId": "webook-user",
+    "remote": {
+      "updateAt": 1607530942747,
+      "url": "http://localhost:8001/mpflpgaobfpjcpef/book/3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "key": ""
+    }
+  },
+  "book": {
+    "id": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+    "name": "算法",
+    "description": "",
+    "createAt": 1607530841202,
+    "updateAt": 1615044505920,
+    "syncAt": 1607530942747,
+    "creatorId": "webook-user",
+    "remote": {
+      "updateAt": 1607530942747,
+      "url": "http://localhost:8001/mpflpgaobfpjcpef/book/3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "key": ""
+    }
+  },
+  "links": [
+    {
+      "id": "00290ee7-814f-4358-8d9c-85f83f53250f",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "6、快速排序（Quick Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "183de6fd-868a-4bbc-832f-5c7d7a2762e9",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "0.1 算法分类",
+      "description": "",
+      "children": [],
+      "parentId": "682090aa-ab58-48e1-a9ff-691b57988663"
+    },
+    {
+      "id": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "children": [
+        "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+      ],
+      "title": "算法"
+    },
+    {
+      "id": "57c88e61-9b4d-48df-9cee-f938a74e080d",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "4、希尔排序（Shell Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "682090aa-ab58-48e1-a9ff-691b57988663",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "0、算法概述",
+      "description": "",
+      "children": [
+        "183de6fd-868a-4bbc-832f-5c7d7a2762e9",
+        "8baacac1-cf45-4b35-a3f7-5311dafb13c8",
+        "7883cb76-ab9d-464f-bf4c-5d3c0c72c9d7"
+      ],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "6b7b4834-6c93-4006-abda-182284cbb803",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "8、计数排序（Counting Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "75b39e6b-fc65-4189-85b0-adafe1423b09",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "7、堆排序（Heap Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "7883cb76-ab9d-464f-bf4c-5d3c0c72c9d7",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "0.3 相关概念",
+      "description": "",
+      "children": [],
+      "parentId": "682090aa-ab58-48e1-a9ff-691b57988663"
+    },
+    {
+      "id": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "十大经典排序算法（动图演示）",
+      "description": "",
+      "children": [
+        "682090aa-ab58-48e1-a9ff-691b57988663",
+        "ca0e513d-d9ce-487a-8a8e-887cebe827db",
+        "f0c7f740-2719-4c99-b0b1-52602d05312c",
+        "d29b892c-f74e-4a64-956f-4cb43e3f541a",
+        "57c88e61-9b4d-48df-9cee-f938a74e080d",
+        "b08ff352-83ac-4a68-b94f-b33e72e0272f",
+        "00290ee7-814f-4358-8d9c-85f83f53250f",
+        "75b39e6b-fc65-4189-85b0-adafe1423b09",
+        "6b7b4834-6c93-4006-abda-182284cbb803",
+        "ed0b6748-2a34-4a44-8e5f-2e9923ae8dec"
+      ],
+      "parentId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f"
+    },
+    {
+      "id": "8baacac1-cf45-4b35-a3f7-5311dafb13c8",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "0.2 算法复杂度",
+      "description": "",
+      "children": [],
+      "parentId": "682090aa-ab58-48e1-a9ff-691b57988663"
+    },
+    {
+      "id": "b08ff352-83ac-4a68-b94f-b33e72e0272f",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "5、归并排序（Merge Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "ca0e513d-d9ce-487a-8a8e-887cebe827db",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "1、冒泡排序（Bubble Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "d29b892c-f74e-4a64-956f-4cb43e3f541a",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "3、插入排序（Insertion Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "ed0b6748-2a34-4a44-8e5f-2e9923ae8dec",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "9、桶排序（Bucket Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    },
+    {
+      "id": "f0c7f740-2719-4c99-b0b1-52602d05312c",
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "type": "MARK",
+      "bookId": "3b1b601e-3308-4367-8cef-6dd57a3bfe5f",
+      "title": "2、选择排序（Selection Sort）",
+      "description": "",
+      "children": [],
+      "parentId": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3"
+    }
+  ],
+  "pages": [
+    {
+      "id": "4ae22558645c2018fed7c4c87d9cb906",
+      "url": "https://www.cnblogs.com/onepixel/articles/7674659.html",
+      "protocol": "https:",
+      "host": "www.cnblogs.com",
+      "port": 80,
+      "path": "/onepixel/articles/7674659.html",
+      "hash": "",
+      "query": ""
+    }
+  ],
+  "marks": [
+    {
+      "id": "00290ee7-814f-4358-8d9c-85f83f53250f",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "内存空间。",
+          "position": 3808
+        },
+        "end": {
+          "nth": 7,
+          "text": "Sort）",
+          "position": 3825
+        }
+      },
+      "time": 1607530925858,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "183de6fd-868a-4bbc-832f-5c7d7a2762e9",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "、算法概述",
+          "position": 80
+        },
+        "end": {
+          "nth": 1,
+          "text": "1算法分类",
+          "position": 87
+        }
+      },
+      "time": 1607530868405,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "47861ef5-9caa-4c5f-b54d-dc9c4d184ab0",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "为无论什么",
+          "position": 1552
+        },
+        "end": {
+          "nth": 1,
+          "text": "用到它的时",
+          "position": 1577
+        }
+      },
+      "time": 1604242732926,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 1,
+      "color": 2,
+      "private": false
+    },
+    {
+      "id": "57c88e61-9b4d-48df-9cee-f938a74e080d",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "插入空间。",
+          "position": 2278
+        },
+        "end": {
+          "nth": 5,
+          "text": "Sort）",
+          "position": 2295
+        }
+      },
+      "time": 1607530914908,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "682090aa-ab58-48e1-a9ff-691b57988663",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "动图演示）",
+          "position": 74
+        },
+        "end": {
+          "nth": 1,
+          "text": "、算法概述",
+          "position": 80
+        }
+      },
+      "time": 1607530865837,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "6b7b4834-6c93-4006-abda-182284cbb803",
+      "range": {
+        "start": {
+          "nth": 7,
+          "text": "arr;}",
+          "position": 5756
+        },
+        "end": {
+          "nth": 9,
+          "text": "Sort）",
+          "position": 5776
+        }
+      },
+      "time": 1607530936474,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "75b39e6b-fc65-4189-85b0-adafe1423b09",
+      "range": {
+        "start": {
+          "nth": 3,
+          "text": "emp;}",
+          "position": 4743
+        },
+        "end": {
+          "nth": 8,
+          "text": "Sort）",
+          "position": 4758
+        }
+      },
+      "time": 1607530930888,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "7883cb76-ab9d-464f-bf4c-5d3c0c72c9d7",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "算法复杂度",
+          "position": 235
+        },
+        "end": {
+          "nth": 1,
+          "text": "3相关概念",
+          "position": 242
+        }
+      },
+      "time": 1607530882281,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "8823f13c-191b-40ce-85b9-d0bc7a6e09e3",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "论-502",
+          "position": 60
+        },
+        "end": {
+          "nth": 1,
+          "text": "动图演示）",
+          "position": 74
+        }
+      },
+      "time": 1607530862685,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "8baacac1-cf45-4b35-a3f7-5311dafb13c8",
+      "range": {
+        "start": {
+          "nth": 2,
+          "text": "较类排序。",
+          "position": 227
+        },
+        "end": {
+          "nth": 1,
+          "text": "算法复杂度",
+          "position": 235
+        }
+      },
+      "time": 1607530878627,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "b08ff352-83ac-4a68-b94f-b33e72e0272f",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "k提出的。",
+          "position": 2984
+        },
+        "end": {
+          "nth": 6,
+          "text": "Sort）",
+          "position": 3001
+        }
+      },
+      "time": 1607530919468,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "ca0e513d-d9ce-487a-8a8e-887cebe827db",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "n的函数。",
+          "position": 387
+        },
+        "end": {
+          "nth": 1,
+          "text": "Sort）",
+          "position": 405
+        }
+      },
+      "time": 1607530885816,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "d29b892c-f74e-4a64-956f-4cb43e3f541a",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "方法了吧。",
+          "position": 1643
+        },
+        "end": {
+          "nth": 3,
+          "text": "Sort）",
+          "position": 1664
+        }
+      },
+      "time": 1607530909838,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "e4bc3c49-09ba-4fee-b95b-3a6c326d3f2a",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "规模越小越",
+          "position": 1586
+        },
+        "end": {
+          "nth": 1,
+          "text": "讲，选择排",
+          "position": 1618
+        }
+      },
+      "time": 1604242736252,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 1,
+      "color": 1,
+      "private": false
+    },
+    {
+      "id": "ed0b6748-2a34-4a44-8e5f-2e9923ae8dec",
+      "range": {
+        "start": {
+          "nth": 8,
+          "text": "排序算法。",
+          "position": 6449
+        },
+        "end": {
+          "nth": 10,
+          "text": "Sort）",
+          "position": 6466
+        }
+      },
+      "time": 1607530942634,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "f0c7f740-2719-4c99-b0b1-52602d05312c",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "arr;}",
+          "position": 869
+        },
+        "end": {
+          "nth": 2,
+          "text": "Sort）",
+          "position": 890
+        }
+      },
+      "time": 1607530904801,
+      "pageId": "4ae22558645c2018fed7c4c87d9cb906",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    }
+  ]
+}

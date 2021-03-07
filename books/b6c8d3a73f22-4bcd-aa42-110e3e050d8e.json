@@ -1,0 +1,993 @@
+{
+  "meta": {
+    "id": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+    "name": "MySql",
+    "description": "all about `MySql`",
+    "createAt": 1596985656498,
+    "creatorId": "webook-user",
+    "updateAt": 1615047270403,
+    "syncAt": 1609774840933,
+    "remote": {
+      "url": "http://localhost:8001/mpflpgaobfpjcpef/book/b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "updateAt": 1600871714912
+    }
+  },
+  "book": {
+    "id": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+    "name": "MySql",
+    "description": "all about `MySql`",
+    "createAt": 1596985656498,
+    "creatorId": "webook-user",
+    "updateAt": 1615047270403,
+    "syncAt": 1609774840933,
+    "remote": {
+      "url": "http://localhost:8001/mpflpgaobfpjcpef/book/b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "updateAt": 1600871714912
+    }
+  },
+  "links": [
+    {
+      "id": "02a1f049-ddb3-4d43-bcf4-98bf15602583",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "查询缓存",
+      "description": "",
+      "children": [],
+      "parentId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e"
+    },
+    {
+      "id": "16f72b80-026f-47d5-b145-3e2490148ae9",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "checkpoint",
+      "description": "",
+      "children": [],
+      "parentId": "e202faf1-fb95-4cfd-a4c4-23eeae21f555"
+    },
+    {
+      "id": "1dee065f-4fe4-4798-b7d2-bf7fc1cf8788",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "引言",
+      "description": "",
+      "children": [],
+      "parentId": "577b2bb3-50e3-469e-b499-b6861c7f64fd"
+    },
+    {
+      "id": "2e7ad9b9-affc-4012-b14b-a2a1436fbbc3",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "Explain",
+      "description": "",
+      "children": [],
+      "parentId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e"
+    },
+    {
+      "id": "34a9c17a-f330-4801-949c-d27d49ccd752",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "索引",
+      "description": "",
+      "children": [
+        "6e7f3910-47fc-4da1-9132-d689c9a9dbd0",
+        "bf7d1b42-61f2-4424-a8e9-f4ba2a0ab9c8",
+        "8b621b4d-a3ba-424a-bdd7-fc5403cc8a0b",
+        "5f8fb9fe-f943-4260-a062-8da4c8437093",
+        "8a954202-4968-4172-b9eb-ea141ceaac2c"
+      ],
+      "parentId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e"
+    },
+    {
+      "id": "44591c1d-9c00-47ea-b3fb-74307b0864fa",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "执行流程",
+      "description": "",
+      "children": [],
+      "parentId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e"
+    },
+    {
+      "id": "577b2bb3-50e3-469e-b499-b6861c7f64fd",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "事务",
+      "description": "",
+      "children": [
+        "1dee065f-4fe4-4798-b7d2-bf7fc1cf8788",
+        "6c78c19d-18b3-40d6-bd63-ae984a3255a3",
+        "e2a13b5c-189f-4ef4-87b5-af6e11507e69",
+        "58ac595b-99fe-42ab-b388-efb805e94848"
+      ],
+      "parentId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e"
+    },
+    {
+      "id": "58ac595b-99fe-42ab-b388-efb805e94848",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "MVCC",
+      "description": "",
+      "children": [],
+      "parentId": "577b2bb3-50e3-469e-b499-b6861c7f64fd"
+    },
+    {
+      "id": "5d499c60-866d-46c7-9565-cc0f42d5a644",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "index dive",
+      "description": "",
+      "children": [],
+      "parentId": "6547ec99-06ef-435b-a35d-97e7210cf1d9"
+    },
+    {
+      "id": "5eb802a0-53ba-4e5a-9083-b8498843a834",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "基本概念",
+      "description": "",
+      "children": [],
+      "parentId": "8e25e1af-36d8-45f8-8321-03e17d883bc0"
+    },
+    {
+      "id": "5f8fb9fe-f943-4260-a062-8da4c8437093",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "一些原则",
+      "description": "",
+      "children": [],
+      "parentId": "34a9c17a-f330-4801-949c-d27d49ccd752"
+    },
+    {
+      "id": "629f4c67-782b-4695-a89e-8541722af513",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "log buffer（日志缓冲区）",
+      "description": "",
+      "children": [],
+      "parentId": "e202faf1-fb95-4cfd-a4c4-23eeae21f555"
+    },
+    {
+      "id": "6547ec99-06ef-435b-a35d-97e7210cf1d9",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "优化器",
+      "description": "",
+      "children": [
+        "ec6f43c2-55a2-44a3-b160-20767a219f19",
+        "7346d84d-9f53-445c-9799-ac68143f7256",
+        "fc1e0b4f-51ff-41e7-97f6-42bc450833aa",
+        "5d499c60-866d-46c7-9565-cc0f42d5a644"
+      ],
+      "parentId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e"
+    },
+    {
+      "id": "6c78c19d-18b3-40d6-bd63-ae984a3255a3",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "事务并发执行的问题",
+      "description": "",
+      "children": [],
+      "parentId": "577b2bb3-50e3-469e-b499-b6861c7f64fd"
+    },
+    {
+      "id": "6e7f3910-47fc-4da1-9132-d689c9a9dbd0",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "聚簇索引（主键索引）",
+      "description": "",
+      "children": [],
+      "parentId": "34a9c17a-f330-4801-949c-d27d49ccd752"
+    },
+    {
+      "id": "7346d84d-9f53-445c-9799-ac68143f7256",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "单表查询的成本",
+      "description": "",
+      "children": [],
+      "parentId": "6547ec99-06ef-435b-a35d-97e7210cf1d9"
+    },
+    {
+      "id": "8a954202-4968-4172-b9eb-ea141ceaac2c",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "为什么索引用B+树",
+      "description": "",
+      "children": [],
+      "parentId": "34a9c17a-f330-4801-949c-d27d49ccd752"
+    },
+    {
+      "id": "8b621b4d-a3ba-424a-bdd7-fc5403cc8a0b",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "联合索引",
+      "description": "",
+      "children": [],
+      "parentId": "34a9c17a-f330-4801-949c-d27d49ccd752"
+    },
+    {
+      "id": "8e25e1af-36d8-45f8-8321-03e17d883bc0",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "undo日志",
+      "description": "",
+      "children": [
+        "5eb802a0-53ba-4e5a-9083-b8498843a834"
+      ],
+      "parentId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e"
+    },
+    {
+      "id": "a6627adb-0897-4a4a-a0f3-8ff4b6321122",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "redo日志文件组",
+      "description": "",
+      "children": [],
+      "parentId": "e202faf1-fb95-4cfd-a4c4-23eeae21f555"
+    },
+    {
+      "id": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "children": [
+        "44591c1d-9c00-47ea-b3fb-74307b0864fa",
+        "02a1f049-ddb3-4d43-bcf4-98bf15602583",
+        "34a9c17a-f330-4801-949c-d27d49ccd752",
+        "6547ec99-06ef-435b-a35d-97e7210cf1d9",
+        "2e7ad9b9-affc-4012-b14b-a2a1436fbbc3",
+        "8e25e1af-36d8-45f8-8321-03e17d883bc0",
+        "e202faf1-fb95-4cfd-a4c4-23eeae21f555",
+        "577b2bb3-50e3-469e-b499-b6861c7f64fd"
+      ],
+      "title": "MySql"
+    },
+    {
+      "id": "bf7d1b42-61f2-4424-a8e9-f4ba2a0ab9c8",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "非聚簇索引（二级索引）",
+      "description": "",
+      "children": [],
+      "parentId": "34a9c17a-f330-4801-949c-d27d49ccd752"
+    },
+    {
+      "id": "c35ff3e2-2639-4611-b685-fc8b83e1f003",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "redo日志刷盘时机",
+      "description": "",
+      "children": [],
+      "parentId": "e202faf1-fb95-4cfd-a4c4-23eeae21f555"
+    },
+    {
+      "id": "e202faf1-fb95-4cfd-a4c4-23eeae21f555",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "redo日志（物理日志）",
+      "description": "",
+      "children": [
+        "629f4c67-782b-4695-a89e-8541722af513",
+        "c35ff3e2-2639-4611-b685-fc8b83e1f003",
+        "a6627adb-0897-4a4a-a0f3-8ff4b6321122",
+        "16f72b80-026f-47d5-b145-3e2490148ae9"
+      ],
+      "parentId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e"
+    },
+    {
+      "id": "e2a13b5c-189f-4ef4-87b5-af6e11507e69",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "四种隔离级别",
+      "description": "",
+      "children": [],
+      "parentId": "577b2bb3-50e3-469e-b499-b6861c7f64fd"
+    },
+    {
+      "id": "ec6f43c2-55a2-44a3-b160-20767a219f19",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "什么是成本？",
+      "description": "",
+      "children": [],
+      "parentId": "6547ec99-06ef-435b-a35d-97e7210cf1d9"
+    },
+    {
+      "id": "fc1e0b4f-51ff-41e7-97f6-42bc450833aa",
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "type": "MARK",
+      "bookId": "b6c8d3a7-3f22-4bcd-aa42-110e3e050d8e",
+      "title": "多表查询的成本",
+      "description": "",
+      "children": [],
+      "parentId": "6547ec99-06ef-435b-a35d-97e7210cf1d9"
+    }
+  ],
+  "pages": [
+    {
+      "id": "eae2109525f1bd327a504d421ecdb565",
+      "url": "https://juejin.cn/post/6844904039860142088",
+      "protocol": "https:",
+      "host": "juejin.cn",
+      "port": 80,
+      "path": "/post/6844904039860142088",
+      "hash": "",
+      "query": ""
+    }
+  ],
+  "marks": [
+    {
+      "id": "004bb187-b3f1-4d9c-aa8e-523ff301a8f3",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "开始吧。这",
+          "position": 265
+        },
+        "end": {
+          "nth": 1,
+          "text": "，优化器，",
+          "position": 282
+        }
+      },
+      "time": 1597758095144,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 1,
+      "color": 3,
+      "private": false
+    },
+    {
+      "id": "02a1f049-ddb3-4d43-bcf4-98bf15602583",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "查询缓存中",
+          "position": 2391
+        },
+        "end": {
+          "nth": 1,
+          "text": "中查询缓存",
+          "position": 2395
+        }
+      },
+      "time": 1615047092114,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "16f72b80-026f-47d5-b145-3e2490148ae9",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "的工作啦。",
+          "position": 9728
+        },
+        "end": {
+          "nth": 3,
+          "text": "point",
+          "position": 9738
+        }
+      },
+      "time": 1615047216924,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "1dee065f-4fe4-4798-b7d2-bf7fc1cf8788",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "之中。事务",
+          "position": 10649
+        },
+        "end": {
+          "nth": 1,
+          "text": "。事务引言",
+          "position": 10651
+        }
+      },
+      "time": 1615047250593,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "216abdb5-11a3-46b7-868c-59f5873861c0",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "0条数据，",
+          "position": 4330
+        },
+        "end": {
+          "nth": 1,
+          "text": "索引的理解",
+          "position": 4340
+        }
+      },
+      "time": 1602166197544,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "2e7ad9b9-affc-4012-b14b-a2a1436fbbc3",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "统计出来。",
+          "position": 7820
+        },
+        "end": {
+          "nth": 3,
+          "text": "plain",
+          "position": 7827
+        }
+      },
+      "time": 1615047174233,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "34a9c17a-f330-4801-949c-d27d49ccd752",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "大于优点。",
+          "position": 4012
+        },
+        "end": {
+          "nth": 1,
+          "text": "优点。索引",
+          "position": 4014
+        }
+      },
+      "time": 1615047103903,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "44591c1d-9c00-47ea-b3fb-74307b0864fa",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "，知道他的",
+          "position": 323
+        },
+        "end": {
+          "nth": 1,
+          "text": "的执行流程",
+          "position": 327
+        }
+      },
+      "time": 1596987525528,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "55819402-2403-4813-8896-0804f764179b",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "主键索引）",
+          "position": 4793
+        },
+        "end": {
+          "nth": 1,
+          "text": "看图说话。",
+          "position": 4811
+        }
+      },
+      "time": 1602166210146,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 1,
+      "color": 2,
+      "private": false
+    },
+    {
+      "id": "577b2bb3-50e3-469e-b499-b6861c7f64fd",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "在段之中。",
+          "position": 10647
+        },
+        "end": {
+          "nth": 1,
+          "text": "之中。事务",
+          "position": 10649
+        }
+      },
+      "time": 1615047232888,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "58ac595b-99fe-42ab-b388-efb805e94848",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "改成功的。",
+          "position": 11461
+        },
+        "end": {
+          "nth": 1,
+          "text": "。MVCC",
+          "position": 11465
+        }
+      },
+      "time": 1615047270301,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "5d499c60-866d-46c7-9565-cc0f42d5a644",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "少个记录）",
+          "position": 7547
+        },
+        "end": {
+          "nth": 1,
+          "text": "xdive",
+          "position": 7556
+        }
+      },
+      "time": 1615047166967,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "5eb802a0-53ba-4e5a-9083-b8498843a834",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "大概说了）",
+          "position": 10239
+        },
+        "end": {
+          "nth": 1,
+          "text": "）基本概念",
+          "position": 10243
+        }
+      },
+      "time": 1615047227757,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "5f8fb9fe-f943-4260-a062-8da4c8437093",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "ge排序。",
+          "position": 5453
+        },
+        "end": {
+          "nth": 1,
+          "text": "。一些原则",
+          "position": 5457
+        }
+      },
+      "time": 1609774832623,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "629f4c67-782b-4695-a89e-8541722af513",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "恢复出来。",
+          "position": 8948
+        },
+        "end": {
+          "nth": 1,
+          "text": "志缓冲区）",
+          "position": 8964
+        }
+      },
+      "time": 1615047200281,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "6547ec99-06ef-435b-a35d-97e7210cf1d9",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "据库索引。",
+          "position": 6467
+        },
+        "end": {
+          "nth": 1,
+          "text": "引。优化器",
+          "position": 6470
+        }
+      },
+      "time": 1609774840801,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "6c78c19d-18b3-40d6-bd63-ae984a3255a3",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "而去性能。",
+          "position": 10779
+        },
+        "end": {
+          "nth": 1,
+          "text": "执行的问题",
+          "position": 10788
+        }
+      },
+      "time": 1615047260569,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "6e7f3910-47fc-4da1-9132-d689c9a9dbd0",
+      "range": {
+        "start": {
+          "nth": 2,
+          "text": ";复制代码",
+          "position": 3129
+        },
+        "end": {
+          "nth": 1,
+          "text": "主键索引）",
+          "position": 3139
+        }
+      },
+      "time": 1596989274352,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "7346d84d-9f53-445c-9799-ac68143f7256",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "是0.2。",
+          "position": 6734
+        },
+        "end": {
+          "nth": 1,
+          "text": "查询的成本",
+          "position": 6741
+        }
+      },
+      "time": 1615047156633,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "8a954202-4968-4172-b9eb-ea141ceaac2c",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "年面试题（",
+          "position": 6209
+        },
+        "end": {
+          "nth": 1,
+          "text": "引用B+树",
+          "position": 6218
+        }
+      },
+      "time": 1615047137174,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "8b621b4d-a3ba-424a-bdd7-fc5403cc8a0b",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "叫做回表。",
+          "position": 5391
+        },
+        "end": {
+          "nth": 1,
+          "text": "。联合索引",
+          "position": 5395
+        }
+      },
+      "time": 1609774829842,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "8e25e1af-36d8-45f8-8321-03e17d883bc0",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "数据统计。",
+          "position": 10216
+        },
+        "end": {
+          "nth": 2,
+          "text": "ndo日志",
+          "position": 10222
+        }
+      },
+      "time": 1615047221680,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "a6627adb-0897-4a4a-a0f3-8ff4b6321122",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "下下小节讲",
+          "position": 9441
+        },
+        "end": {
+          "nth": 1,
+          "text": "日志文件组",
+          "position": 9450
+        }
+      },
+      "time": 1615047212216,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "bf7d1b42-61f2-4424-a8e9-f4ba2a0ab9c8",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "。复制代码",
+          "position": 4954
+        },
+        "end": {
+          "nth": 1,
+          "text": "二级索引）",
+          "position": 4965
+        }
+      },
+      "time": 1609774824027,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "c35ff3e2-2639-4611-b685-fc8b83e1f003",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "上的大小。",
+          "position": 9142
+        },
+        "end": {
+          "nth": 1,
+          "text": "志刷盘时机",
+          "position": 9152
+        }
+      },
+      "time": 1615047207690,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "dea840c8-a5a8-4c63-a624-ab7221c6e59e",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "不走索引。",
+          "position": 5525
+        },
+        "end": {
+          "nth": 1,
+          "text": "时间越长。",
+          "position": 5711
+        }
+      },
+      "time": 1609776058142,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 1,
+      "color": 1,
+      "private": false
+    },
+    {
+      "id": "e202faf1-fb95-4cfd-a4c4-23eeae21f555",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "件的百分比",
+          "position": 8567
+        },
+        "end": {
+          "nth": 1,
+          "text": "物理日志）",
+          "position": 8579
+        }
+      },
+      "time": 1615047190979,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "e2a13b5c-189f-4ef4-87b5-af6e11507e69",
+      "range": {
+        "start": {
+          "nth": 2,
+          "text": "查询不一致",
+          "position": 11195
+        },
+        "end": {
+          "nth": 1,
+          "text": "种隔离级别",
+          "position": 11201
+        }
+      },
+      "time": 1615047265544,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "eb066642-53bc-44f6-a726-1f5393ed812c",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "录认证后，",
+          "position": 432
+        },
+        "end": {
+          "nth": 1,
+          "text": "操作权限。",
+          "position": 457
+        }
+      },
+      "time": 1596987566192,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 1,
+      "color": 2,
+      "private": false
+    },
+    {
+      "id": "ec6f43c2-55a2-44a3-b160-20767a219f19",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "行方法呢？",
+          "position": 6631
+        },
+        "end": {
+          "nth": 1,
+          "text": "么是成本？",
+          "position": 6637
+        }
+      },
+      "time": 1615047149651,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    },
+    {
+      "id": "fc1e0b4f-51ff-41e7-97f6-42bc450833aa",
+      "range": {
+        "start": {
+          "nth": 1,
+          "text": "成本最低。",
+          "position": 7465
+        },
+        "end": {
+          "nth": 2,
+          "text": "查询的成本",
+          "position": 7472
+        }
+      },
+      "time": 1615047163943,
+      "pageId": "eae2109525f1bd327a504d421ecdb565",
+      "userId": "webook-user",
+      "type": 2,
+      "color": 0,
+      "private": false
+    }
+  ]
+}

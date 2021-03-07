@@ -1,0 +1,181 @@
+{
+    "meta": {
+        "id": "default",
+        "name": "Default WeBook",
+        "description": "this is the Default WeBook",
+        "createAt": 0,
+        "updateAt": 1602166197680,
+        "syncAt": 0,
+        "creatorId": "webook-user"
+    },
+    "book": {
+        "id": "default",
+        "name": "Default WeBook",
+        "description": "this is the Default WeBook",
+        "createAt": 0,
+        "updateAt": 1602166197680,
+        "syncAt": 0,
+        "creatorId": "webook-user"
+    },
+    "links": [
+        {
+            "id": "216abdb5-11a3-46b7-868c-59f5873861c0",
+            "pageId": "d7595b5f9f69aca92076d199945530b0",
+            "type": "MARK",
+            "bookId": "default",
+            "title": "便于下面的索引的理解",
+            "description": "",
+            "children": [],
+            "parentId": "default"
+        },
+        {
+            "id": "default",
+            "bookId": "default",
+            "parentId": "default",
+            "children": [
+                "216abdb5-11a3-46b7-868c-59f5873861c0"
+            ],
+            "title": "Default WeBook"
+        }
+    ],
+    "pages": [
+        {
+            "id": "d7595b5f9f69aca92076d199945530b0",
+            "url": "https://juejin.cn/post/6844904039860142088",
+            "protocol": "https:",
+            "host": "juejin.cn",
+            "port": 80,
+            "path": "/post/6844904039860142088",
+            "hash": "",
+            "query": ""
+        }
+    ],
+    "marks": [
+        {
+            "id": "004bb187-b3f1-4d9c-aa8e-523ff301a8f3",
+            "range": {
+                "start": {
+                    "nth": 1,
+                    "text": "开始吧。这",
+                    "position": 265
+                },
+                "end": {
+                    "nth": 1,
+                    "text": "，优化器，",
+                    "position": 282
+                }
+            },
+            "time": 1597758095144,
+            "pageId": "d7595b5f9f69aca92076d199945530b0",
+            "userId": "webook-user",
+            "type": 1,
+            "color": 3,
+            "private": false
+        },
+        {
+            "id": "216abdb5-11a3-46b7-868c-59f5873861c0",
+            "range": {
+                "start": {
+                    "nth": 1,
+                    "text": "0条数据，",
+                    "position": 4330
+                },
+                "end": {
+                    "nth": 1,
+                    "text": "索引的理解",
+                    "position": 4340
+                }
+            },
+            "time": 1602166197544,
+            "pageId": "d7595b5f9f69aca92076d199945530b0",
+            "userId": "webook-user",
+            "type": 2,
+            "color": 0,
+            "private": false
+        },
+        {
+            "id": "44591c1d-9c00-47ea-b3fb-74307b0864fa",
+            "range": {
+                "start": {
+                    "nth": 1,
+                    "text": "，知道他的",
+                    "position": 323
+                },
+                "end": {
+                    "nth": 1,
+                    "text": "的执行流程",
+                    "position": 327
+                }
+            },
+            "time": 1596987525528,
+            "pageId": "d7595b5f9f69aca92076d199945530b0",
+            "userId": "webook-user",
+            "type": 2,
+            "color": 0,
+            "private": false
+        },
+        {
+            "id": "55819402-2403-4813-8896-0804f764179b",
+            "range": {
+                "start": {
+                    "nth": 1,
+                    "text": "主键索引）",
+                    "position": 4793
+                },
+                "end": {
+                    "nth": 1,
+                    "text": "看图说话。",
+                    "position": 4811
+                }
+            },
+            "time": 1602166210146,
+            "pageId": "d7595b5f9f69aca92076d199945530b0",
+            "userId": "webook-user",
+            "type": 1,
+            "color": 4,
+            "private": false
+        },
+        {
+            "id": "6e7f3910-47fc-4da1-9132-d689c9a9dbd0",
+            "range": {
+                "start": {
+                    "nth": 2,
+                    "text": ";复制代码",
+                    "position": 3129
+                },
+                "end": {
+                    "nth": 1,
+                    "text": "主键索引）",
+                    "position": 3139
+                }
+            },
+            "time": 1596989274352,
+            "pageId": "d7595b5f9f69aca92076d199945530b0",
+            "userId": "webook-user",
+            "type": 2,
+            "color": 0,
+            "private": false
+        },
+        {
+            "id": "eb066642-53bc-44f6-a726-1f5393ed812c",
+            "range": {
+                "start": {
+                    "nth": 1,
+                    "text": "录认证后，",
+                    "position": 432
+                },
+                "end": {
+                    "nth": 1,
+                    "text": "操作权限。",
+                    "position": 457
+                }
+            },
+            "time": 1596987566192,
+            "pageId": "d7595b5f9f69aca92076d199945530b0",
+            "userId": "webook-user",
+            "type": 1,
+            "color": 2,
+            "private": false
+        }
+    ]
+}
